@@ -11,8 +11,11 @@ from langchain.callbacks.base import BaseCallbackHandler
 from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-st.set_page_config(page_title="LangChain: Chat with Documents", page_icon=":parrot:")
-st.title(":parrot: Chat with DUKES (Digest of UK Energy Statistics 2022)")
+
+st.set_page_config(page_title="FCDO X LangChain: Chat with Documents", page_icon=":globe:")
+st.title("FCDO Hackathon: Chat with Documents")
+
+
 @st.cache_resource(ttl="1h")
 def configure_qa_chain():
     query_embedding = OpenAIEmbeddings()
@@ -36,6 +39,8 @@ def configure_qa_chain():
         llm, retriever=retriever, memory=memory, verbose=True
     )
     return qa_chain
+
+
 class PrintRetrievalHandler(BaseCallbackHandler):
     def __init__(self, container):
         self.container = container.expander("Context Retrieval")
@@ -51,17 +56,21 @@ openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.")
     st.stop()
+
 #uploaded_files = st.sidebar.file_uploader(
 #    label="Upload PDF files", type=["pdf"], accept_multiple_files=True
 #)
 #if not uploaded_files:
 #    st.info("Please upload PDF documents to continue.")
 #    st.stop()
+
 qa_chain = configure_qa_chain()
 if "messages" not in st.session_state or st.sidebar.button("Clear message history"):
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
+    
 user_query = st.chat_input(placeholder="Ask me anything!")
 if user_query:
     st.session_state.messages.append({"role": "user", "content": user_query})
