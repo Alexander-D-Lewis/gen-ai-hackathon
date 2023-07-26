@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<!--<![endif]-->
+
+<!-- Mirrored from www.okhub.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Dec 2018 12:10:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Knowledge Hub | Knowledge is just the beginning&#8230;it&#039;s what you do with it that matters</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="xmlrpc.php" />
+  
+<title>Open Knowledge Hub &#8211; Knowledge is just the beginning&#8230;it&#039;s what you do with it that matters</title>
+<link rel='dns-prefetch' href='http://cdn.jsdelivr.net/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Open Knowledge Hub &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Open Knowledge Hub &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.okhub.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='wp-content/plugins/column-shortcodes/assets/css/shortcodes5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles167b.css?ver=4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='gglcptch-css'  href='wp-content/plugins/google-captcha/css/gglcptch5e0e.css?ver=1.27' type='text/css' media='all' />
+<link rel='stylesheet' id='banner style-css'  href='static/globalnav6c42.css?ver=4.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='wp-content/themes/openstrap/css/bootstrap6c42.css?ver=4.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-custom-css'  href='wp-content/themes/openstrap/css/custom6c42.css?ver=4.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/themes/openstrap/css/font-awesome.min6c42.css?ver=4.8.7' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='openstrap-ie-css'  href='https://www.okhub.org/wp-content/themes/openstrap/css/font-awesome-ie7.min.css?ver=4.8.7' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='openstrap-style-css'  href='wp-content/themes/main-okh/style6c42.css?ver=4.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min6c42.css?ver=4.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-css'  href='../cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min1849.css?ver=4.7.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.7" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embedb502.json?url=https%3A%2F%2Fwww.okhub.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedb0d6?url=https%3A%2F%2Fwww.okhub.org%2F&amp;format=xml" />
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-0000000-0', 'auto');
+ga('send', 'pageview');
+</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<style type="text/css"> 	
+	@media (min-width: 768px) {
+	/* Required to make menu appear on mouse hover. */
+	ul.nav li.dropdown:hover > ul.dropdown-menu{
+	display: block;    
+	}
+
+	ul.nav li.dropdown > ul.dropdown-menu li.dropdown-submenu:hover > ul.dropdown-menu {
+	display: block;    
+	}
+	}
+	</style>		
+		<style type="text/css" media="all"> #bodychild{width:90%;}</style></head>
+
+<body class="home page-template-default page page-id-28 single-author openstrap-custom-background">
+
+<div id="okhubnav">
+	<div id="okhubnavcontent">
+		<div id="gnavlogo"><a href="index.html"><img src="static/images/okhub-logo-banner.png" /></div>
+		<div id="gnavmenu">
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li class="okhubnavhome"><a href="index.html">Home</a></li>
+				<!--li class="okhubnavexplorer"><a href="http://explorer.okhub.org">Content Explorer</a></li-->
+				<li class="okhubnavdeveloper"><a href="http://developer.okhub.org/">Developer</a></li>
+				<li class="okhubnavdata"><a href="http://data.okhub.org/">Data Hub</a></li>
+				<li class="okhubnavapi"><a href="http://api.okhub.org/">API</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	<div id="bodychild">
+	<!-- Wrap all page content here -->  
+	<div id="wrap">	
+	
+		
+			<header class="site-header" role="banner">
+
+		<div class="header-body">		
+			<div class="container">
+				 <div class="row logo-row">
+				  <div class="col-md-4 pull-left">
+										<a href="index.html"><img src="wp-content/uploads/2015/12/okhub-logo-main.png" alt="Knowledge is just the beginning&#8230;it&#039;s what you do with it that matters" class="img-responsive" /></a>
+					                  </div>
+                   
+                  <div id="site-tagline" class="col-md-8 pull-right">
+                    Knowledge is just the beginning...<br /><span>it&#039;s what you do with it that matters</span>                  </div>
+                   
+				  <div class="col-md-8 hidden-xs">
+					<div class="pull-right">
+							
+					</div>
+				  </div>
+				</div>
+			</div>	
+		</div>
+	
+	</header>
+	
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <!--
+          <a class="navbar-brand visible-xs" href="https://www.okhub.org/"><i class="icon-home"></i></a>
+		  -->
+		 
+		<div class="navbar-search-sm pull-right visible-sm visible-xs">
+
+				<form class="navbar-search navbar-form" method="get" action="https://www.okhub.org/">
+					<input type="search" name="s" id="s" class="search-fields" placeholder="Search" name="s">
+				</form>
+
+		</div>		
+				
+        </div>
+        <div class="navbar-collapse collapse">
+		<ul id="menu-primary" class="nav navbar-nav pull-left"><li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-28 current_page_item menu-item-162 active active"><a href="index.html">Home</a></li>
+<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-179 dropdown"><a href="about/index.html" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="about/index.html">About</a></li>
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="about/how-can-i-use-okhub-content/index.html">How can I use OKhub content?</a></li>
+	<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="about/why/index.html">Why be part of the OKhub?</a></li>
+	<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="about/theory-of-change/index.html">Theory of Change</a></li>
+	<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="about/international-advisory-group/index.html">International Advisory Group</a></li>
+	<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="about/roadmap/index.html">Roadmap</a></li>
+</ul>
+</li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="news/index.html">News and Blogs</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="partners/index.html">Partners</a></li>
+<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-168 dropdown"><a href="case-studies/index.html" data-toggle="dropdown" class="dropdown-toggle">Cases and Stories <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="case-studies/index.html">Case Studies</a></li>
+	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="case-studies/stories-of-change/index.html">Stories of Change</a></li>
+	<li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="case-studies/multimedia/index.html">Multimedia</a></li>
+</ul>
+</li>
+<li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-188 dropdown"><a href="learning-and-resources/index.html" data-toggle="dropdown" class="dropdown-toggle">Learning and Resources <span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu">
+	<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="learning-and-resources/learning-papers/index.html">Learning Papers</a></li>
+	<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="learning-and-resources/scoping-studies/index.html">Scoping Studies</a></li>
+	<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="learning-and-resources/workshop-reports/index.html">Events and Workshops</a></li>
+</ul>
+</li>
+<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="contact/index.html">Contact us</a></li>
+</ul>	
+		
+		 	
+		<ul class="nav navbar-nav navbar-right visible-md visible-lg pull-right">
+			<li>
+				<form class="navbar-search navbar-form" method="get" action="https://www.okhub.org/">
+					<input type="search" name="s" id="s" class="search-fields" placeholder="Search" name="s">
+				</form>
+			</li>
+		</ul>
+				
+							
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container" id="main-container">
+	<div class="row" id="main-row">
+
+	
+	
+       	<div class="entry-content clearfix col-sm-12">
+		<!-- AddThis Sharing Buttons above --><p class="col-sm-6">The Global Open Knowledge Hub (GOKH) is a technical, content driven programme aimed to develop new technical infrastructures and standards that supports <strong>increased access and availability of research knowledge.</strong></p>
+<p class="col-sm-6">Central to the project is the Open Knowledge Hub (OKhub), an Open Data platform for <strong>sharing and downloading digital content about development</strong>. The following diagram illustrates the OKhub workflow.</p>
+<!-- AddThis Sharing Buttons below -->	</div><!-- .entry-content -->	
+
+
+                  <div class="main-front-graphic">
+		<!--<img src="https://www.okhub.org/wp-content/themes/main-okh/images/main.gif" />-->
+            <div id="okh_portfolio_widget_widget-2" class="widget-1 widget-first widget-last widget-odd make-cycle widget widget_okh_portfolio_widget_widget"><div class="portfolio-list clearfix"><div class="portfolio-list-element clearfix"><div class="portfolio-image pull-left"><a rel="sourcing-content-for-eldis" href="portfolio/sourcing-content-for-eldis/index.html"><img width="150" height="150" src="wp-content/uploads/2015/12/Eldis-sourcing-150x150.gif" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="portfolio-extract"><h3 class="portfolio-title"><a rel="sourcing-content-for-eldis" href="portfolio/sourcing-content-for-eldis/index.html">Sourcing content for Eldis</a></h3><div class="portfolio-text">In addition to contributing Eldis content to the OKhub, Eldis also receives content from the Hub. Eldis is an online information ...</div><div class="more-link"><a rel="sourcing-content-for-eldis" href="portfolio/sourcing-content-for-eldis/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div><div class="portfolio-list-element clearfix"><div class="portfolio-image pull-left"><a rel="global-gender-resources" href="portfolio/global-gender-resources/index.html"><img width="150" height="150" src="wp-content/uploads/2016/01/women_Tanz_06-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="portfolio-extract"><h3 class="portfolio-title"><a rel="global-gender-resources" href="portfolio/global-gender-resources/index.html">Global gender resources</a></h3><div class="portfolio-text">The BRIDGE site is now using the OKhub to combine content from two partners' sites to create a richer set ...</div><div class="more-link"><a rel="global-gender-resources" href="portfolio/global-gender-resources/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div><div class="portfolio-list-element clearfix"><div class="portfolio-image pull-left"><a rel="gender-hub" href="portfolio/gender-hub/index.html"><img width="150" height="150" src="wp-content/uploads/2016/01/GenderHub-library-1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="portfolio-extract"><h3 class="portfolio-title"><a rel="gender-hub" href="portfolio/gender-hub/index.html">Gender Hub data integration</a></h3><div class="portfolio-text">OKhub content is also integrated into host databases such as the Gender Hub. The Gender Hub is a multi-faceted online resource that strengthens ...</div><div class="more-link"><a rel="gender-hub" href="portfolio/gender-hub/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div><div class="portfolio-list-element clearfix"><div class="portfolio-image pull-left"><a rel="use-of-the-ok-hub-widget" href="portfolio/use-of-the-ok-hub-widget/index.html"><img width="150" height="150" src="wp-content/uploads/2016/01/NUST-widget-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="portfolio-extract"><h3 class="portfolio-title"><a rel="use-of-the-ok-hub-widget" href="portfolio/use-of-the-ok-hub-widget/index.html">Use of the OKhub widget</a></h3><div class="portfolio-text">The OKhub Web Widget allows you to create content relevant to your users and embed it in your website with ...</div><div class="more-link"><a rel="use-of-the-ok-hub-widget" href="portfolio/use-of-the-ok-hub-widget/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div></div></div>	
+          </div>
+        
+            
+        
+          <div id="widgets-row" class="row">
+            <div class="col-md-3 col-sm-6">
+                        <div id="wysiwyg_widgets_widget-2" class="widget-1 widget-first widget-last widget-odd section-explorer widget front-page-widget widget_wysiwyg_widgets_widget"><!-- Widget by WYSIWYG Widgets v2.3.6 - https://wordpress.org/plugins/wysiwyg-widgets/ --><h4 class="front-page-widget-title">Content Explorer</h4><p><xstrong>What is in the Hub?</xstrong></p>
+<p>Our content explorer helps make sense of the breadth of open development knowledge available on the Hub</p>
+<p class="text-right"><a href="http://explorer.okhub.org/" class="action-label btn btn-info">Explore the content</a></p>
+<!-- / WYSIWYG Widgets --></div>	
+            	
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                        <div id="wysiwyg_widgets_widget-3" class="widget-1 widget-first widget-last widget-odd section-developer widget front-page-widget widget_wysiwyg_widgets_widget"><!-- Widget by WYSIWYG Widgets v2.3.6 - https://wordpress.org/plugins/wysiwyg-widgets/ --><h4 class="front-page-widget-title">Developer</h4><p>How-to guides to make use of content from the hub and contribute to the knowledge.</p>
+<p>Get support and find out about the CMS plugins which make it easy.</p>
+<p class="text-right"><a href="http://developer.okhub.org/" class="action-label btn btn-info">Get the tools</a></p>
+<!-- / WYSIWYG Widgets --></div>	
+            	
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                        <div id="wysiwyg_widgets_widget-4" class="widget-1 widget-first widget-last widget-odd section-api widget front-page-widget widget_wysiwyg_widgets_widget"><!-- Widget by WYSIWYG Widgets v2.3.6 - https://wordpress.org/plugins/wysiwyg-widgets/ --><h4 class="front-page-widget-title">API</h4><p>Register for the OKhub API, and get direct programmatic access to international research.</p>
+<p>Our API end-point and authentication information can be found here.</p>
+<p class="text-right"><a class="action-label btn btn-info" href="http://api.okhub.org/">Register for the API</a></p>
+<!-- / WYSIWYG Widgets --></div>	
+            	
+            </div>
+
+                          <div class="col-md-3 col-sm-6">
+                            <div id="wysiwyg_widgets_widget-12" class="widget-1 widget-first widget-last widget-odd section-data widget front-page-widget widget_wysiwyg_widgets_widget"><!-- Widget by WYSIWYG Widgets v2.3.6 - https://wordpress.org/plugins/wysiwyg-widgets/ --><h4 class="front-page-widget-title">About the Hub</h4><p>Why we think it is important to share content about international development, policy and practise from a range of diverse sources</p>
+<p>Read more about the project</p>
+<p class="text-right"><a href="about/index.html" class="action-label btn btn-info">About our work</a></p>
+<!-- / WYSIWYG Widgets --></div>	
+              	
+              </div>
+            	
+            
+          </div>
+
+                  <div class="front-full-set row">
+            <div id="okh_news_widget_widget-3" class="widget-1 widget-first widget-odd col-xs-6 widget widget_okh_news_widget_widget"><div class="news-list clearfix"><h2>Latest News and Blogs</h2><div class="news-list-element clearfix"><div style="background-color: #fff; padding: 0px;"><div class="news-image pull-left" style="padding: 0px 10px 10px 0;"><a rel="open-knowledge-kezako" href="open-knowledge-kezako/index.html"><img width="150" height="150" src="wp-content/uploads/2016/06/5-savoirslibres-dakar201620-b204b-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="news-extract" style="margin-bottom: 40px;position: relative;"><h2 class="news-title"><a rel="open-knowledge-kezako" href="open-knowledge-kezako/index.html">Open Knowledge, kezako?</a></h2><div class="news-text">Written by Lorie Decung, Genre en Action "Open knowledge", much talked about in the ‘Open Access’ movement circles: is it ...<div class="more-link" style="margin-top: 10px; position:absolute; right: 10px; bottom:-55px"><a rel="open-knowledge-kezako" href="open-knowledge-kezako/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div></div></div><div class="news-list-element clearfix"><div style="background-color: #fff; padding: 0px;"><div class="news-image pull-left" style="padding: 0px 10px 10px 0;"><a rel="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps" href="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps/index.html"><img width="150" height="150" src="wp-content/uploads/2016/03/SKOScrop-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="news-extract" style="margin-bottom: 40px;position: relative;"><h2 class="news-title"><a rel="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps" href="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps/index.html">Towards a common vocabulary for climate change - reflections and next steps</a></h2><div class="news-text">Tree view of SPREP's vocabulary using SKOS Play. &nbsp; By Alan Stanley (IDS) with contributions from Denise Recheis (REEEP), Michelle Lopez ...<div class="more-link" style="margin-top: 10px; position:absolute; right: 10px; bottom:-55px"><a rel="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps" href="towards-a-common-vocabulary-for-climate-change-reflections-and-next-steps/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div></div></div><div class="news-list-element clearfix"><div style="background-color: #fff; padding: 0px;"><div class="news-image pull-left" style="padding: 0px 10px 10px 0;"><a rel="using-data-to-respond-to-climate-change" href="using-data-to-respond-to-climate-change/index.html"><img width="150" height="150" src="wp-content/uploads/2016/02/River-Mopan-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a></div><div class="news-extract" style="margin-bottom: 40px;position: relative;"><h2 class="news-title"><a rel="using-data-to-respond-to-climate-change" href="using-data-to-respond-to-climate-change/index.html">Using data to respond to climate change</a></h2><div class="news-text">During her recent learning visit to the Caribbean, IDS Editorial Coordinator Amy Hall explored the challenges of addressing climate change. She ...<div class="more-link" style="margin-top: 10px; position:absolute; right: 10px; bottom:-55px"><a rel="using-data-to-respond-to-climate-change" href="using-data-to-respond-to-climate-change/index.html" class="btn btn-primary">Read More &rarr;</a></div></div></div></div></div></div><hr/><p><a href="news/index.html">More news and blog posts</a></p></div><div id="text-2" class="widget-2 widget-last widget-even col-xs-6 widget widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/OK_hub" data-widget-id="690213215716904961">Tweets by @OK_hub</a>
+<script>// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script></div>
+		</div>	
+          </div>
+        
+</div> <!-- #main-row-->
+</div> <!-- .container #main-container-->
+</div> <!-- #wrap -->
+
+<footer>
+		
+<div id="footer">
+  <div class="container footer-nav ">	
+	<div class="pull-left">
+		<div class="contact-details">
+		<ul>
+		<li class="location-icon">A: Institute of Development Studies, Brighton, BN1 9RE, United Kingdom</li>
+		<li class="email-icon">T: +44 (0) 1273 606261</li>
+		<li class="telephone-icon">E: <a href="mailto:info@okhub.org">info@okhub.org</a></li>
+		<li class="twitter-icon">t: <a href="https://twitter.com/OK_hub">@OK_hub</a></li>
+		</ul>
+		</div>
+	
+	</div> 
+	<div class="pull-right hidden-xs">
+	
+		<a href="http://www.dfid.gov.uk/"><img src="wp-content/themes/main-okh/images/logoUKAID.png" alt="DFID - UK Aid"></a>
+		<a href="http://www.ids.ac.uk/"><img src="wp-content/themes/main-okh/images/logoIDS.gif" alt="IDS"></a>
+		<p class="text-muted credit">© All rights reserved.</p>
+	</div> 	
+  </div>
+</div>
+</footer> 
+</div> <!-- #bodychild -->
+<script data-cfasync="false" type="text/javascript">
+var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+var addthis_share = {};
+</script>
+                <!-- AddThis Settings Begin -->
+                <script data-cfasync="false" type="text/javascript">
+                    var addthis_product = "wpp-5.3.4";
+                    var wp_product_version = "wpp-5.3.4";
+                    var wp_blog_version = "4.8.7";
+                    var addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"5.3.4","anonymous_profile_id":"wp-2b49e6d2423772a41cfe2f923544d8a2","plugin_mode":"WordPress","select_prefs":{"addthis_per_post_enabled":true,"addthis_above_enabled":false,"addthis_below_enabled":false,"addthis_sidebar_enabled":true,"addthis_mobile_toolbar_enabled":true,"addthis_above_showon_home":true,"addthis_above_showon_posts":true,"addthis_above_showon_pages":true,"addthis_above_showon_archives":true,"addthis_above_showon_categories":true,"addthis_above_showon_excerpts":true,"addthis_below_showon_home":true,"addthis_below_showon_posts":true,"addthis_below_showon_pages":true,"addthis_below_showon_archives":true,"addthis_below_showon_categories":true,"addthis_below_showon_excerpts":true,"addthis_sidebar_showon_home":true,"addthis_sidebar_showon_posts":true,"addthis_sidebar_showon_pages":true,"addthis_sidebar_showon_archives":true,"addthis_sidebar_showon_categories":true,"addthis_mobile_toolbar_showon_home":true,"addthis_mobile_toolbar_showon_posts":true,"addthis_mobile_toolbar_showon_pages":true,"addthis_mobile_toolbar_showon_archives":true,"addthis_mobile_toolbar_showon_categories":true,"sharing_enabled_on_post_via_metabox":true},"page_info":{"template":"home","post_type":""}};
+                    if (typeof(addthis_config) == "undefined") {
+                        var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+                    }
+                    if (typeof(addthis_share) == "undefined") {
+                        var addthis_share = {};
+                    }
+                    if (typeof(addthis_layers) == "undefined") {
+                        var addthis_layers = {"share":{"theme":"transparent","position":"left","numPreferredServices":5,"mobile":false},"sharedock":{"counts":true,"position":"bottom","numPreferredServices":5}};
+                    }
+                </script>
+                <script
+                    data-cfasync="false"
+                    type="text/javascript"
+                    src="../s7.addthis.com/js/300/addthis_widget.js#pubid=57f49705aac094586010e10873d4a76a "
+                    async="async"
+                >
+                </script>
+                <script data-cfasync="false" type="text/javascript">
+                    (function() {
+                        var at_interval = setInterval(function () {
+                            if(window.addthis) {
+                                clearInterval(at_interval);
+                                addthis.layers(addthis_layers);
+                            }
+                        },1000)
+                    }());
+                </script>
+                <link rel='stylesheet' id='addthis_output-css'  href='wp-content/plugins/addthis/css/output6c42.css?ver=4.8.7' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts167b.js?ver=4.6'></script>
+<script type='text/javascript' src='wp-content/themes/main-okh/js/libs/jquery.matchHeight-minfad5.js?ver=2015-09-12'></script>
+<script type='text/javascript' src='wp-content/themes/main-okh/js/libs/jquery.cycle2.minfad5.js?ver=2015-09-12'></script>
+<script type='text/javascript' src='wp-content/themes/main-okh/js/libs/jquery.cycle2.carousel.minfad5.js?ver=2015-09-12'></script>
+<script type='text/javascript' src='wp-content/themes/main-okh/js/scriptfad5.js?ver=2015-09-12'></script>
+<script type='text/javascript' src='wp-content/themes/openstrap/js/bootstrap.min6e0e.js?ver=3.0.0'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min6c42.js?ver=4.8.7'></script>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://www.okhub.org/wp-content/themes/openstrap/assets/js/html5shiv.js" type="text/javascript"></script>
+	<script src="https://www.okhub.org/wp-content/themes/openstrap/assets/js/respond.min.js" type="text/javascript"></script>
+	<![endif]-->
+	<!-- Bootstrap 3 dont have core support to multilevel menu, we need this JS to implement that -->
+	<script src="wp-content/themes/openstrap/js/theme-menu.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		jQuery.noConflict();
+	</script>	
+			<script type='text/javascript'>		
+		jQuery(document).ready(function(){
+			jQuery('.carousel').carousel({ interval: 2500, cycle: true, wrap: true, pause:"hover" });	
+		});				
+		</script>
+		<!--wp_footer--></body>
+
+<!-- Mirrored from www.okhub.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Dec 2018 12:11:06 GMT -->
+</html>

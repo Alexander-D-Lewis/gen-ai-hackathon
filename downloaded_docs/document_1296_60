@@ -1,0 +1,460 @@
+		<!DOCTYPE html>
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+		<head>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="noindex, nofollow" />
+
+			<title>DFID 8174 Implementation of the Multi-stakeholder Forestry Programme Phase 4 (MFP4) - Contracts Finder</title>
+			<link href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/styles/govuk/favicon/govuk.ico?v=MzAzMDA=" rel="shortcut icon" type="image/x-icon" />
+<link rel="apple-touch-icon-precomposed apple-touch-icon" sizes="152x152" href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/styles/govuk/favicon/govuk-touch-icon-152x152.png?v=MzAzMDA=">
+<link rel="apple-touch-icon-precomposed apple-touch-icon" sizes="120x120" href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/styles/govuk/favicon/govuk-touch-icon-120x120.png?v=MzAzMDA=">
+<link rel="apple-touch-icon-precomposed apple-touch-icon" sizes="76x76" href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/styles/govuk/favicon/govuk-touch-icon-76x76.png?v=MzAzMDA=">
+<link rel="apple-touch-icon-precomposed apple-touch-icon" href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/styles/govuk/favicon/govuk-touch-icon-60x60.png?v=MzAzMDA=">
+	<link rel="stylesheet" type="text/css" href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/stylesheets/govuk-frontend-3.0.0.min.css?v=MzAzMDA=">
+<link href="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/stylesheets/style.css?v=MzAzMDA=" media="all" rel="stylesheet" type="text/css" />
+<link href="https://www.contractsfinder.service.gov.uk/stylesheets/style.css?v=MzAzMDA=" media="all" rel="stylesheet" type="text/css" />
+				<script>const SKIN = 'CONTRACTFINDER';</script>
+	<script>const CONTENTsource = 'UI';</script>
+	<script>const PLATFORM_VERSION = '30300';</script>
+	<script>const PLATFORM_URL = 'https://www.contractsfinder.service.gov.uk';</script>
+	<script>const COOKIE_PREFIX = 'CF';</script>
+			<script>const SET_GA_COOKIES = '1';</script>
+				<script>const UNSET_GA_COOKIES = '2';</script>
+				<script>const LANGUAGE_ID = 'en_GB';</script>
+		
+	<script type="text/javascript">const js_translation = [];</script>
+	<script src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/javascripts/jquery.js?v=MzAzMDA="></script>
+	<script src="https://www.contractsfinder.service.gov.uk/javascripts/jqueryuieffects.js?v=MzAzMDA="></script>
+	<script src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/javascripts/global.js?v=MzAzMDA="></script>
+	<script src="https://www.contractsfinder.service.gov.uk/javascripts/global.js?v=MzAzMDA="></script>
+	<script src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/javascripts/popup_dialog.js?v=MzAzMDA="></script>
+
+	
+	<script src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/javascripts/gadgetcontrols.js?v=MzAzMDA="></script>
+	<script src="https://www.contractsfinder.service.gov.uk/javascripts/gadgetcontrols.js?v=MzAzMDA="></script>
+	
+	
+	
+			<script>
+		  dataLayer = [{"loggedIn":false,"orgRole":"Not logged in"}];
+		</script>
+				<script src="https://www.contractsfinder.service.gov.uk/javascripts/contractfinder.js?v=MzAzMDA="></script>
+						</head>
+<body class="skin-contractfinder style-govuk body-ltr">
+	<div id="skiplink-container" class="help-page">
+		<div>
+			<a href="#all-content-wrapper" class="skiplink govuk-link break-word">Skip to main content</a>		
+		</div>
+	</div>
+		<div id="global-cookie-message" class="gem-c-cookie-banner govuk-clearfix" data-module="cookie-banner" role="region" aria-label="cookie banner" data-nosnippet="" style="display: block;">
+				<div id = "cookie-banner" class="govuk-cookie-banner__message govuk-width-container">
+			<div class="govuk-grid-row">
+				<div class="govuk-grid-column-two-thirds">
+					<h2 class="govuk-cookie-banner__heading govuk-heading-m">Cookies on Contracts Finder</h2>
+					<div class="govuk-cookie-banner__content">
+												<p>We use some essential cookies to make this service work.</p>
+												<p>We&rsquo;d also like to use analytics cookies so we can understand how you use the service and make improvements.</p>
+									</div>
+				</div>
+			</div>
+			<div class="govuk-button-group">
+						<button id="cf_accept_all_cookies" class="govuk-button no-disable-button form-control align-left">Accept analytics cookies</button>
+							<button id="cf_reject_all_cookies" class="govuk-button no-disable-button form-control align-left">Reject analytics cookies</button>
+					<a href="/Home/Cookies" id="cf-cookie-preferences" class="govuk-link form-control align-left break-word">View cookies</a>			</div>
+		</div>
+	<div id = "cookie-confirmation" class="govuk-cookie-banner__message govuk-width-container" style="display:none" tabindex="-1" >
+		<div class="govuk-grid-row">
+			<div class="govuk-grid-column-two-thirds">
+				<div class="govuk-cookie-banner__content"> 	
+					<p id="confirmation_accepted" style="display:none">You&rsquo;ve accepted analytics cookies. You can <a href="/Home/Cookies" id="cf_change_cookie_preferences" class="govuk-link break-word">change your cookie settings</a> at any time.</p>
+					<p id="confirmation_rejected" style="display:none">You&rsquo;ve rejected analytics cookies. You can <a href="/Home/Cookies" id="cf_change_cookie_preferences" class="govuk-link break-word">change your cookie settings</a> at any time.</p>
+				</div>
+			</div>
+		</div>
+		<div class="govuk-button-group">
+						<button id="cookie-confirmation-hide" class="govuk-button no-disable-button form-control">Hide this message</button>
+			</div>
+  </div>
+	</div>
+	<div id="standard-holder">
+		<div id="header">
+			<div id="govuk-global-header">
+					
+	<header class="govuk-header " data-module="govuk-header" role="banner">
+		<div class="govuk-header__container govuk-width-container">
+		<div class="govuk-header__logo">
+			<a href="http://gov.uk" class="govuk-header__link govuk-header__link--homepage break-word" ><span class="govuk-header__logotype">
+					<svg class="govuk-header__logotype-crown" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 132 97" height="30" width="36" alt="" aria-hidden="true">
+						<path fill="currentColor" fill-rule="evenodd" d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"></path>
+						<image src="/libraries/base-noticing/images/govuk-logotype-crown.png" xlink:href="" class="govuk-header__logotype-crown-fallback-image" width="36" height="32" style="margin-top: -4px" ></image>
+					</svg>
+					<span class="govuk-header__logotype-text">
+						GOV.UK
+					</span>
+				</span>
+</a>					</div>
+		<div class="govuk-header__content">
+						<a href="https://www.contractsfinder.service.gov.uk" class="govuk-header__link govuk-header__link--service-name break-word" >Contracts Finder</a>	
+						</div>
+					<div id="mobile-menu-header" class="gadget-header-hamburger-container gadget-header-main-hamburger-container" role="group">
+						<button id="mobile-menu" type="button" class="popup-button govuk-button gadget-header-hamburger-button" aria-expanded="false">Menu</button>
+					<div id="mobile-menu-container" class="gadget-header-verb-container">
+					<div class="gadget-header-verb-padding">
+						<span class="standard-header-verb-link" ><a href="/organisation/register" class=" govuk-link break-word">Register</a></span><span class="standard-header-verb-link" id="burger-menu-sign_in_button"><a href="/login" class=" govuk-link break-word">Sign in</a></span>					</div>
+				</div>
+			</div>
+			</div>
+</header>
+			</div>
+				
+	    <div class="user-research-banner">
+		  	<div id="user-research-inner" class="govuk-width-container">
+	    		<p class="banner-text-padding">
+	      			<strong class="banner-heading">Help us improve Contracts Finder</strong>
+							<button class="govuk-link link-button govuk-link-white banner-close align-right no-disable-button" aria-label="Close user testing banner">Close</button>
+		    		</p>
+	    		<p class="banner-text-padding">
+					<a href="/Home/SignUpForUserTesting" class="govuk-link govuk-link-white break-word">Sign up for user testing</a>	    		</p>
+	  		</div>
+		</div>
+						<div id="header-holder">
+				<div class="canvas main-page-top">
+			<div id="nav-bar" class="margin-xa govuk-width-container" role="navigation">
+					<div id="header-menu-left" class="header-item">
+					<div class="nav-bar-icon govuk-beta">BETA</div>
+				<span class="nav-bar-message">This is a new service - your <a href="https://crowncommercial.qualtrics.com/jfe/form/SV_5dIO8hji9NCBDtc" target="_blank" class="govuk-link break-word"  aria-label="feedback (opens in a new window)">feedback</a> will help us improve it.</span>
+						</div>
+									<div id="header-menu-right" class="header-item">
+						<div id="header-menu-navigation-holder" class="header-menu-navigation-holder-unscrolled">
+															
+							<ul id="header-menu-navigation">			<li  class="header-menu-navigation-first">
+				<a accesskey="R" href="https://www.contractsfinder.service.gov.uk/organisation/register " class="govuk-link break-word" >Register</a>			</li>
+						<li  >
+				<a accesskey="S" href="https://www.contractsfinder.service.gov.uk/login " id="sign_in_button" class="govuk-link break-word" >Sign in</a>			</li>
+			</ul>						</div>
+					</div>
+								<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+		</div>
+		<div class="canvas">
+			<div id="body-inner-canvas" class="govuk-width-container body-inner-canvas-unscrolled body-inner-canvas-motd">
+				<div id="standard-body" class="standard-body-plain">
+											<ol class="standard-breadcrumbs"> <li title="Home"><a href="/contractfinder" class="govuk-link break-word"><span  title="Home">Home</span></a></li> <li class="standard-breadcrumbs-separator"></li> <li title="DFID 8174 Implementation of the Multi-stakeholder Forestry Programme Phase 4 (MFP4)">DFID 8174 Implementation of the Multi-stakeholder Forestry Programme Phase 4 (MFP4)</li></ol><div id='all-content-wrapper'><h1 class='govuk-heading-l break-word'>DFID 8174 Implementation of the Multi-stakeholder Forestry Programme Phase 4 (MFP4)</h1><div id="home-breadcrumb-description" class="standard-col" style="min-height:0;"><h2 class='breadcrumb-description'>DEPARTMENT FOR INTERNATIONAL DEVELOPMENT</h2></div><div class="standard-col"></div>										<div id="content" class="goveuk-main-wrapper" role="main">
+
+					<div class="clear"></div>
+
+<div id="standard-left-col" class="standard-col">
+	<div class="standard-col-content search-no-top-margin">
+		<div id="content-holder-left" class="content-holder content-holder-view-notice break-word">
+			<div id="content-block-left">
+				<div class="margin-bottom-50">
+					<p class="search-no-top-margin">Published date: 22 December 2017</p>
+									</div>
+				<p>Closed opportunity - This means that the contract is currently closed. The buying department may be considering suppliers that have already applied, or no suitable offers were made.</p>			</div>
+			<div id="content-block-mobile" class="mobile-show">
+						<button href="#" id="64baae7de699f" class="pd-open govuk-button" data-popup-open="popup-dialog-2">Watch this notice</button>
+					</br>
+						<button id="64baae7de6a4e" class="print govuk-button govuk-button--secondary">Print this notice</button>
+		<form  method="post" data-ajax="false" name="notice_view_button_controls"   action="https://www.contractsfinder.service.gov.uk/Notice/19759095-b979-4e58-9db4-d7623c2de3ea" id="notice_view_button_controls_form" class="content-wrapper">
+				<div class="standard-form-body ">
+						<div class="clear"></div>
+		</div>
+			<div class="standard-form-controls standard-form-option margin-top-0 margin-bottom-0 padding-top-0 padding-bottom-3px">
+	</div>
+	
+	<input type='hidden' name='form_token' value='OFHGIewYSbmHN3H2qZbVeMhSPxw8boRZ' />
+		</form>
+Closing:  2 February 2018			
+			</div>
+			<div class="content-block">
+				<h3>Contract summary</h3>
+				<p></p>
+
+				<h4><strong>Industry</strong></h4>
+				
+				<!-- Print out industries in form opener if more than three values -->
+				<ul>
+																			<li><p>Foreign economic-aid-related services - 75211200</p></li>
+							
+																						</ul>
+								<h4><strong>Location of contract</strong></h4>
+				<p><span  title="Any region">Any region</span></p>
+
+									<h4><strong>Value of contract</strong></h4>
+					<p>&pound;8,333,333</p>
+								<h4><strong>Procurement reference</strong></h4>
+				<p>DFID 8174 Contract Notice</p>
+
+				<h4><strong>Published date</strong></h4>
+				<p>22 December 2017</p>
+
+									<h4><strong>Closing date</strong></h4>
+					<p> 2 February 2018</p>
+										<h4><strong>Contract start date</strong></h4>
+					<p>31 May 2018</p>
+					<h4><strong>Contract end date</strong></h4>
+					<p>31 May 2023</p>
+												<h4><strong>Contract type</strong></h4>
+				<p>Service contract</p>
+													<h4><strong>Procedure type</strong></h4>
+					<p>Open procedure (above threshold)</p>	<div class="form-opener" role="group" aria-live="polite">
+				<button id="notice_procedure_type_guidance" type="button" class="form-opener-button" aria-expanded="false" aria-roledescription="button"><span aria-label="What is an open procedure (above threshold)?" class="form-opener-button-span" data-label-show="What is an open procedure (above threshold)?" data-label-hide="What is an open procedure (above threshold)?">What is an open procedure (above threshold)?</span></button>
+			<div class="form-opener-container form-opener-container-hidden-text" >
+			<span class="clear"></span>	<div class="standard-form-option  margin-bottom-0" >
+				<div id=""  ><p>Any interested supplier may submit a tender in response to an opportunity notice.</p><p>This procedure can be used for procurements above the relevant <a href="https://www.gov.uk/government/publications/procurement-policy-note-0921-thresholds-and-inclusion-of-vat" target="_blank" class="govuk-link break-word" aria-label="contract value threshold (opens in a new window)">contract value threshold</a>.</p></div>
+			</div>
+			</div>
+	</div>
+										<h4><strong>Contract is suitable for SMEs?</strong></h4>
+					<p>Yes</p>
+					<h4><strong>Contract is suitable for VCSEs?</strong></h4>
+					<p>Yes</p>
+							</div>
+			
+			<div class="content-block">
+				<hr class="content-line">
+				<h3>Description</h3>
+				<p></p>
+				<p>The Department for International Development (DFID) is seeking a supplier to implement a new Multi-stakeholder Forestry Programme (phase 4) to support Indonesia in its ambitions on sustainable timber andcommunity forestry.  In support of Indonesia&#039;s objectives for strengthening forest governance, MFP4 will directly contribute towardsglobal Forest Governance, Markets, and Climate&#039;s outcome to bring about governance and market reforms thatreduce the illegal use of forest resources and benefit poor people, and contribute to FGMC&#039;s impact to improvemanagement of forests for poverty reduction, biodiversity conservation, and climate protection.</p>
+			</div>
+						<div class="content-block">
+				<hr class="content-line">
+				<h3>More information</h3>
+				<p></p>
+				<dl>				<dt><p><strong>Attachments</strong></p></dt>
+										<dd>
+						<ul>
+							<li class="list-no-bullets break-word">
+							<a href="https://www.contractsfinder.service.gov.uk/Notice/Attachment/09512179-a9ce-4d16-8c54-640adac67406" id="64baae7de8318" class="govuk-link download break-word">8174 Contract Notice ENOTICES_nprocude-2017-179028-NF02-EN.pdf</a>							</li>
+															<li>
+									Tender notice	
+								</li>
+																						<li>
+									DFID 8174 Contract Notice	
+								</li>						
+													</ul>
+						</dd>
+										<dt><p><strong>Additional text</strong></p></dt>
+												<dd>
+								<p>
+									All relevant information relating to this Contract Notice can be found on the DFID Supplier Portal where suppliers can register their interest directly.<br />
+<br />
+If you are not already registered as a supplier on the DFID Supplier Portal please follow the guidance which can be found on the top left of the home page: <a href="https://supplierportal.dfid.gov.uk/selfservice/" target="_blank" class="govuk-link break-word" aria-label="https://supplierportal.dfid.gov.uk/selfservice/ (opens in a new window)">https://supplierportal.dfid.gov.uk/selfservice/</a>	
+								</p>						
+								</dd>
+							</dl>			</div>
+									<div class="content-block">
+				<hr class="content-line">
+				<h3>About the buyer</h3>
+				<p></p>
+									<h4><strong>Contact name</strong></h4>
+					<p>Veronica Cain</p>
+								<h4><strong>Address</strong></h4>
+								<p>Department for International Development (DFID)<br>Abercrombie House, Eaglesham Road<br>East Kilbride<br>G75 8EA<br>Scotland</p>
+									<h4><strong>Telephone</strong></h4>
+					<p>+44 01355 843388</p>
+								<h4><strong>Email</strong></h4>
+				<p class="break-word">
+				<a href="mailto:V-Cain@dfid.gov.uk" id="64baae7dea48d" class="govuk-link break-word" aria-roledescription="email link">V-Cain@dfid.gov.uk</a>									<h4><strong>Website</strong></h4>
+					<p class="break-word">
+					<a href="https://www.gov.uk/government/organisations/department-for-international-development" target="_blank" class="govuk-link break-word" aria-label="https://www.gov.uk/government/organisations/department-for-international-development (opens in a new window)">https://www.gov.uk/government/organisations/department-for-international-development</a>					</p>
+				
+				</p>
+			</div>
+
+				<div class="content-block no-print margin-bottom-0" >
+		<hr class="content-line">
+		<h2 class="share-this-notice">Share this notice</h2>
+			<div class="social">
+		<ul>
+			<li><a href="#" id="64baae7dea92b" onclick="window.open('https://twitter.com/share?url=https%3A%2F%2Fwww.contractsfinder.service.gov.uk%2FNotice%2F19759095-b979-4e58-9db4-d7623c2de3ea;text=Contracts+Finder+-+DFID+8174+Implementation+of+the+Multi-stakeholder+Forestry+Programme+Phase+4+%28MFP4%29','Twitter', 'status=1,width=575,height=400');return false;" class="twitter govuk-link break-word" aria-label="Share this notice on Twitter">Twitter</a></li>
+			<li><a href="#" id="64baae7dea9d4" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.contractsfinder.service.gov.uk%2FNotice%2F19759095-b979-4e58-9db4-d7623c2de3ea&amp;title=Contracts+Finder+-+DFID+8174+Implementation+of+the+Multi-stakeholder+Forestry+Programme+Phase+4+%28MFP4%29&amp;summary=The+Department+for+International+Development+%28DFID%29+is+seeking+a+supplier+to+implement+a+new+Multi-stakeholder+Forestry+Programme+%28phase+4%29+to+support+Indonesia+in+its+ambitions+on+sustainable+timber+...&amp;source=Contracts%20Finder','LinkedIn', 'status=1,width=1040,height=570');return false;" class="linkedin govuk-link break-word" aria-label="Share this notice on LinkedIn">LinkedIn</a></li>
+			<li><a href="mailto:?subject=A%20Contracts%20Finder%20notice%20has%20been%20shared%20with%20you&amp;body=Contracts%20Finder%20notice%20reference%20URL:%20https://www.contractsfinder.service.gov.uk/Notice/19759095-b979-4e58-9db4-d7623c2de3ea" id="64baae7deaae9" class="email govuk-link padding-top-5 break-word" aria-label="Share this notice by email" aria-roledescription="email link">Email</a></li>
+		</ul>
+	</div>
+		</div>
+	
+			<span class="clear"></span>
+			<div class="content-block no-print margin-top-0">
+				<p>
+						<button id="64baae7deac6f" role="button" class="pd-open govuk-link link-button" data-popup-open="popup-dialog-0">Is there anything wrong with this page?</button>
+					</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="standard-right-col" role="complementary" class="standard-col">
+	<div class="standard-col-content">
+		<div id="content-holder-right" class="content-holder">
+			<div id="content-block-right" class="mobile-hidden">
+						<button href="#" id="64baae7dead1c" class="pd-open govuk-button" data-popup-open="popup-dialog-2">Watch this notice</button>
+							<button id="64baae7deadc5" class="print govuk-button govuk-button--secondary">Print this notice</button>
+		<form  method="post" data-ajax="false" name=""   action="https://www.contractsfinder.service.gov.uk/Notice/19759095-b979-4e58-9db4-d7623c2de3ea" id="_form" class="content-wrapper">
+				<div class="standard-form-body ">
+						<div class="clear"></div>
+		</div>
+			<div class="standard-form-controls">
+	</div>
+	
+	<input type='hidden' name='form_token' value='3yFMMcLFn8mbb4eC4pxjbOb0mI9x60xa' />
+		</form>
+				<p class="float-left"> Closing:  2 February 2018</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+			</div>
+			</div>
+			</div>
+						<span class="clear"></span>
+		</div>
+	</div>
+	<div id="footer-container">
+				<span id="js-plt" class="js-only">1689955965</span>
+																<div id="govuk-footer" role="contentinfo">
+				<div class="govuk-footer-wrapper">
+					<div class="cf-footer-wrapper">
+							 <div class="footer-left">
+								<ul class="govuk-foooter-links">
+									<li>
+										<a href="https://www.gov.uk/government/organisations/crown-commercial-service" class="govuk-link break-word">About us</a>	
+									</li>
+									<li>
+										<a href="https://www.contractsfinder.service.gov.uk/Home/Contact" class="govuk-link break-word">Contact us</a>	
+									</li>
+									<li>
+										<a href="https://www.contractsfinder.service.gov.uk/Home/AccessibilityStatement" class="govuk-link break-word">Accessibility statement</a>									</li>
+									<li>
+										<a href="https://www.contractsfinder.service.gov.uk/Home/TermsAndConditions" class="govuk-link break-word">Terms and conditions</a>	
+									</li>
+									<li>
+										<a href="https://www.gov.uk/government/publications/crown-commercial-service-privacy-notice/crown-commercial-service-privacy-notice" class="govuk-link break-word">Privacy notice</a>	
+									</li>
+									<li>
+										<a href="https://www.contractsfinder.service.gov.uk/Home/Cookies" class="govuk-link break-word">Cookies</a>	
+									</li>
+									<li>
+										<a href="https://www.contractsfinder.service.gov.uk/apidocumentation" class="govuk-link break-word">Data and API</a>	
+									</li>
+								</ul>
+								<p class="govuk-foooter-links-ogl"><img src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/OGL.png" alt="" style="margin-bottom: -3px" />All content is available under the 
+									<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3" class="govuk-link break-word">Open Government Licence v3.0</a> except where otherwise stated.</p>
+							</div>
+							<div class="footer-right">
+								<a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm" id="copyright" name="copyright" class="govuk-link break-word"><img width="125" height="102" src="https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/crown_copyright.png" alt="" /><p>&copy; Crown copyright</p></a>							</div>
+						</div>
+									</div>
+			</div>
+			</div>
+</div>
+
+				<div class="popup-dialog visible-hidden" aria-hidden="true" aria-model="true" aria-roledescription="dialog" id="popup-dialog-0" >
+					<div class="pd-inner" id="popup-dialog-0_label">
+							<div class="pd-content pd-header">
+		<h2 id="popup-dialog-0-title">Concerned about public procurement practices?</h2>
+				<button id="popup-dialog-0-close" type="button" class="pd-close pd-close-button" aria-label="Concerned about public procurement practices?, close" aria-roledescription="dialog button"></button>
+		</div>
+	<div class="pd-content pd-content-body">
+				<p>If you are having technical problems you can contact our service support team at <a href="mailto:ContractsFinder@crowncommercial.gov.uk" class="govuk-link break-word" aria-roledescription="email link" aria-label="ContractsFinder@crowncommercial.gov.uk">ContractsFinder@crowncommercial.gov.uk</a>.</p>
+		 
+		<p>If you have any concerns about procurement practices, including late payment, you can contact the Public Procurement Review Service at <a href="mailto:publicprocurementreview@cabinetoffice.gov.uk" class="govuk-link break-word" aria-roledescription="email link" aria-label="publicprocurementreview@cabinetoffice.gov.uk">publicprocurementreview@cabinetoffice.gov.uk</a>.</p>
+		<p>The role of the service is to:</p>
+		<ul class="online-bullets">
+			<li>provide a clear, structured and direct route for suppliers to raise concerns about public procurement practice</li>
+			<li>offer feedback to enquirers on their concerns</li>
+		</ul>
+		 <p>Find out more on the <a href="https://www.gov.uk/government/publications/public-procurement-review-service-scope-and-remit" target="_blank" class="govuk-link break-word" aria-label="Public Procurement Review Service website (opens in a new window)">Public Procurement Review Service website</a>.</p>
+		 		<button id="close" name="close" type="button" class="govuk-button pd-close" aria-roledescription="dialog button">Close</button>
+			<span class="clear"></span>
+	</div>
+	
+					</div>
+				</div>
+			
+				<div class="popup-dialog visible-hidden" aria-hidden="true" aria-model="true" aria-roledescription="dialog" id="popup-dialog-1" >
+					<div class="pd-inner" id="popup-dialog-1_label">
+							<div class="pd-content pd-header">
+		<h2 id="popup-dialog-1-title">Saved to watched notices list</h2>
+				<button id="popup-dialog-1-close" type="button" class="pd-close pd-close-button" aria-label="Saved to watched notices list, close" aria-roledescription="dialog button"></button>
+		</div>
+	<div class="pd-content pd-content-body">
+		<p>This notice has been added to your <a href="/Manage/WatchedNotices" class="govuk-link break-word" aria-label="watched notices list">watched notices list</a>.</p>
+		<div class="standard-form-option">
+					<button id="close" name="close" type="button" class="govuk-button pd-close" aria-roledescription="dialog button">Close</button>
+			</div>
+	</div>
+	
+					</div>
+				</div>
+			
+				<div class="popup-dialog visible-hidden" aria-hidden="true" aria-model="true" aria-roledescription="dialog" id="popup-dialog-2" >
+					<div class="pd-inner" id="popup-dialog-2_label">
+								<div class="pd-content pd-header">
+			<h2 id="popup-dialog-2-title">Sign in to watch this notice</h2>
+					<button id="popup-dialog-2-close" type="button" class="pd-close pd-close-button" aria-label="Sign in to watch this notice, close" aria-roledescription="dialog button"></button>
+			</div>
+				<div class="pd-content pd-content-body">
+			<div class=" standard-form-option-notice-label"> 
+				<p>To watch this notice, <a accesskey="S" href="/login" class="govuk-link break-word" aria-label="sign in">sign in</a> to your account or <a href="/organisation/register" class="govuk-link break-word" aria-label="register">register</a>.</p>
+				<p>You will need to find this notice again after signing in to watch it.</p>
+				<p>Watching a notice means:</p>
+				<ul class="margin-bottom-15px list-style-position-inherit">
+					<li>It will be in your list of watched notices, so you can easily find it again</li>
+					<li>You can choose to receive emails when it is updated or before it closes</li>
+				</ul>
+			</div>
+			<div class="standard-form-option">
+						<button id="close" name="close" type="button" class="govuk-button pd-close" aria-roledescription="dialog button">Close</button>
+				</div>
+		</div>
+	
+					</div>
+				</div>
+			
+				<div class="popup-dialog visible-hidden" aria-hidden="true" aria-model="true" aria-roledescription="dialog" id="session-timeout-warning" >
+					<div class="pd-inner" id="session-timeout-warning_label">
+							<div class="pd-content pd-header">
+		<h2 id="session-timeout-warning-title">Session timeout</h2>
+		<span>
+				<button id="session-timeout-warning-close" type="button" class="pd-close pd-close-button" aria-label="Session timeout, close" aria-roledescription="dialog button"></button>
+			</span>
+	</div>
+	<div class="pd-content pd-content-body">
+		<p id="timeout-title" class="margin-bot"><strong>Your session will time out soon</strong></p>
+		<p id="timeout-desc" class="margin-bot">You will be signed out of your account if you do not respond in 5 minutes. We do this to keep your information secure.</p>
+		<div class="standard-form-controls standard-form-option">		<button type="button" class="pd-session-timeout govuk-button align-left form-control" aria-roledescription="button">Continue session</button>
+			<button onclick="window.location='https://www.contractsfinder.service.gov.uk/logout'" type="button" class="govuk-button govuk-button--secondary form-control no-disable-button">Sign out</button>
+			</div>
+	</div>
+	
+					</div>
+				</div>
+			
+				<div class="popup-dialog visible-hidden" aria-hidden="true" aria-model="true" aria-roledescription="dialog" id="main-confirm-popup" data-pre-open-func="populate_main_confirm_dialog" data-vertical-center="">
+					<div class="pd-inner" id="main-confirm-popup_label">
+							<div class="pd-content pd-header">
+		<h2 id="main-confirm-popup-title">Confirm</h2>
+				<button id="main-confirm-popup-close" type="button" class="pd-close pd-close-button" aria-label="Confirm, close" aria-roledescription="dialog button"></button>
+		</div>
+	<div class="pd-content pd-content-body">
+		<div class="confirm-question-holder"></div>
+	
+		<div class="flex">
+			<a type="button" class="govuk-button confirm-yes align-right break-word" aria-label="Yes">Yes</a><a type="button" class="govuk-button confirm-no pd-close break-word" aria-label="No">No</a>		</div>
+	</div>
+	
+					</div>
+				</div>
+					<div class="status visible-hidden" id="screen_reader" role="status" aria-live="polite"></div>
+		<div class="status visible-hidden" id="assertive-alert" role="status" aria-live="assertive"></div>
+		<span class="aria-only hide" id="warning-button-alert">warning you will not be able to undo this action</span>
+</body>
+</html>
