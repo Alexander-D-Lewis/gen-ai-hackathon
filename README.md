@@ -11,3 +11,4 @@ Possible add-ons:
 - prompt engineering
 - suggested follow-up questions
 - visualisations
+- other useful data sources
