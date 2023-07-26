@@ -12,3 +12,4 @@ Possible add-ons:
 - suggested follow-up questions
 - visualisations
 - other useful data sources (IATI international reports)
+- Constitution for model to follow 
