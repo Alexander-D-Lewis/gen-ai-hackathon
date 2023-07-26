@@ -11,4 +11,4 @@ Possible add-ons:
 - prompt engineering
 - suggested follow-up questions
 - visualisations
-- other useful data sources
+- other useful data sources (IATI international reports)
