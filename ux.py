@@ -55,14 +55,7 @@ AI Assistant:"""
 PROMPT = PromptTemplate(input_variables=["history", "input"], template=template)
 
 
-# model_name = "sentence-transformers/all-mpnet-base-v2"
-# hf = HuggingFaceEmbeddings(model_name=model_name)
-# db = FAISS.load_local("faiss_index", hf)
-# retriever = db.as_retriever(search_kwargs={"k": 4, "fetch_k": 8})
-
-
 conversation = ConversationChain(prompt=PROMPT,
-# conversation = ConversationalRetrievalChain(prompt=PROMPT,
     llm=chat, 
     verbose=True,
     memory=ConversationBufferMemory(),
@@ -77,9 +70,9 @@ app = Dash(__name__,
 app.layout = html.Div([
     html.Div([
               dmc.Title(children=[image("logo.png", **{"width": "65px",
-                                                            "height": "60px"}),
+                                                            "height": "50px"}),
 
-                                  "  AI'd Chatbot  ",
+                                  "  AI.d Chatbot  ",
                                   image("ukaid.jpeg", enc_format="jpeg", **{"width": "60px",
                                                             "height": "60px"}),])                                  
                                   ],style={'textAlign': 'center',
@@ -104,21 +97,20 @@ app.layout = html.Div([
                                             dbc.CardBody([
                                                 html.Br(),
                                                 html.Div([
-                                                dbc.Button(id="prompt_1_button", children=prompts_list[0], value=prompts_list[0], n_clicks=0),
-                                                dbc.Button(id="prompt_2_button", children=prompts_list[1], value=prompts_list[1], n_clicks=0),
-                                                dbc.Button(id="prompt_3_button", children=prompts_list[2], value=prompts_list[2], n_clicks=0),
+                                                dbc.Button(id="prompt_1_button", children=prompts_list[0], value=prompts_list[0], n_clicks=0, className="option-button"),
+                                                dbc.Button(id="prompt_2_button", children=prompts_list[1], value=prompts_list[1], n_clicks=0, className="option-button"),
+                                                dbc.Button(id="prompt_3_button", children=prompts_list[2], value=prompts_list[2], n_clicks=0, className="option-button"),
 
                                                 ], style={'textAlign': 'center',
                                                           "align-content":"space-between", "width":"100%"}),
                                                 html.Br(),
-                                                html.Br(),
                                                 dbc.InputGroup([
                                                     dbc.Input(id='prompt', value="", placeholder='Your prompt ...', type='text'),
-                                                    dbc.Button(id='sendPrompt', children=">", color="success", n_clicks=0),
+                                                    dbc.Button(id='sendPrompt', children=">", color="success", n_clicks=0, className="option-button"),
                                                     ],
                                                 ),
                                                 html.Br(),
-                                                dmc.Alert(id="mainresponse", color="white"),
+                                                dmc.Alert(id="mainresponse", color="white", style={"background-color":"white"}),
                                                 
                                             ], style={"width":"100%"}),
                                         ],style={"width":"100%"},
@@ -166,15 +158,17 @@ def call_openai_api(n, human_prompt, existingchildren):
     if n==0:
         return "", "", []
     else:
-        result_ai = conversation.predict(input=human_prompt)
-
-        human_output = f"Human: {human_prompt}"
-        chatbot_output = f"ChatBot: {result_ai}"
+        # result_ai = conversation.predict(input=human_prompt)
+        result_ai = ""
+        human_output = f"You asked: {human_prompt}"
+        chatbot_output = f"{result_ai}"
 
         new_children = existingchildren+ [html.Br(),
-                                          dmc.Alert(id='outputHuman', children=[dcc.Markdown(human_output)], title="Human", color="grey"),
+                                          dmc.Alert(children=[dcc.Markdown(human_output)], title="You",
+                                                    className="you-alert-box"),
                                             html.Br(),
-                                            dmc.Alert(id='outputChatBot', children=[dcc.Markdown(chatbot_output)], title="ChatBot", color="grey"),
+                                            dmc.Alert(children=[dcc.Markdown(chatbot_output)], title="AI.d",
+                                                      className="bot-alert-box"),
                                              html.Br(),]
         
 
