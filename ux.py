@@ -47,9 +47,9 @@ lato_font = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300
 chat = OpenAI(temperature=0)   # level of randomness or creativity
 
 
-template = """I want you to act as an international development artificial intelligence adviser who provides advice to international development professionals. If it isn't clear what characteristics you should looking for to find the most useful documents, I want you to ask the international development professional a series of questions to clarify what they are looking for, for example, location, topic, size of project, budget. Keep asking questions until you are confident you know what characteristics you are looking for. When you return information, include references to where you have obtained this information. All your answers should adhere to the civil service code.
+template = """The following is a conversation between an international development professional and an AI. The AI I will act as an assistant who provides advice to international development professionals. The international development professional will ask a question and the AI will respond. The AI should respond with an answer to the question and ask follow up questions to better understand what the international development professional is looking for and what they would find useful. The answer must include references to the documents where the information was sourced. All your answers should adhere to the civil service code.
 {history}
-Human: {input}
+Human: {input} Along with the answer you provide, can you give me potential follow up questions i could ask next to help you better understand me? If my request is vague, please ask me to clarify.
 AI Assistant:"""
 
 PROMPT = PromptTemplate(input_variables=["history", "input"], template=template)
@@ -104,9 +104,9 @@ app.layout = html.Div([
                                             dbc.CardBody([
                                                 html.Br(),
                                                 html.Div([
-                                                dbc.Button(id="prompt_1_button", children=prompts_list[0], value=prompts_list[0]),
-                                                dbc.Button(id="prompt_2_button", children=prompts_list[1], value=prompts_list[1]),
-                                                dbc.Button(id="prompt_3_button", children=prompts_list[2], value=prompts_list[2]),
+                                                dbc.Button(id="prompt_1_button", children=prompts_list[0], value=prompts_list[0], n_clicks=0),
+                                                dbc.Button(id="prompt_2_button", children=prompts_list[1], value=prompts_list[1], n_clicks=0),
+                                                dbc.Button(id="prompt_3_button", children=prompts_list[2], value=prompts_list[2], n_clicks=0),
 
                                                 ], style={'textAlign': 'center',
                                                           "align-content":"space-between", "width":"100%"}),
@@ -118,8 +118,8 @@ app.layout = html.Div([
                                                     ],
                                                 ),
                                                 html.Br(),
-                                                html.P(id='outputHuman', children=""),
-                                                html.P(id='outputChatBot', children=""),
+                                                dmc.Alert(id="mainresponse", color="white"),
+                                                
                                             ], style={"width":"100%"}),
                                         ],style={"width":"100%"},
                                     )
@@ -157,21 +157,29 @@ def update_prompt(clicks1, value1, clicks2, value2, clicks3, value3):
 
 
 @callback(
-    Output(component_id='outputHuman', component_property='children'),
-    Output(component_id='outputChatBot', component_property='children'),
+    Output(component_id='mainresponse', component_property='children'),
     Input(component_id='sendPrompt', component_property='n_clicks'),
-    State(component_id='prompt', component_property='value')
+    State(component_id='prompt', component_property='value'),
+    State(component_id='mainresponse', component_property='children'),
 )
-def call_openai_api(n, human_prompt):
+def call_openai_api(n, human_prompt, existingchildren):
     if n==0:
-        return "", ""
+        return "", "", []
     else:
         result_ai = conversation.predict(input=human_prompt)
 
         human_output = f"Human: {human_prompt}"
         chatbot_output = f"ChatBot: {result_ai}"
 
-        return human_output, chatbot_output
+        new_children = existingchildren+ [html.Br(),
+                                          dmc.Alert(id='outputHuman', children=[dcc.Markdown(human_output)], title="Human", color="grey"),
+                                            html.Br(),
+                                            dmc.Alert(id='outputChatBot', children=[dcc.Markdown(chatbot_output)], title="ChatBot", color="grey"),
+                                             html.Br(),]
+        
+
+
+        return new_children
 
 if __name__ == '__main__':
     app.run_server(debug=True)
