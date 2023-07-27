@@ -4,6 +4,7 @@ import os
 # third party
 import pandas as pd
 import numpy as np
+import pickle
 from glob import iglob
 from langchain.document_loaders import UnstructuredODTLoader
 from langchain.vectorstores import FAISS
@@ -55,7 +56,10 @@ def split_docs(docs):
 
     for doc in tqdm(docs):
             splits = text_splitter.split_text(doc.page_content)
-            corpus_list.append(splits)
+            corpus_list.extend(splits)
+
+
+    pickle.Pickler(open("corpus_list.pkl", "wb")).dump(corpus_list)
     return corpus_list
 
 
@@ -66,7 +70,7 @@ if __name__ == "__main__":
     
     model_name = "sentence-transformers/all-mpnet-base-v2"
     hf = HuggingFaceEmbeddings(model_name=model_name)
-
+    breakpoint()
     store = FAISS.from_texts(corpus_list, embedding=hf)
     store.save_local("faiss_index")
 

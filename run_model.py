@@ -1,16 +1,12 @@
 import os
 import streamlit as st
-import pickle
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
 from langchain import FAISS
-from langchain.chat_models import ChatOpenAI
-from langchain.document_loaders import PyPDFLoader
+from langchain.chat_models import ChatOpenAI, ChatAnthropic
 from langchain.memory import ConversationBufferMemory
-#from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain.chains import ConversationalRetrievalChain
-from langchain.vectorstores import DocArrayInMemorySearch
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+
 
 st.set_page_config(page_title="FCDO X LangChain: Chat with Documents", page_icon=":globe:")
 st.title("FCDO Hackathon: Chat with Documents")
@@ -18,8 +14,10 @@ st.title("FCDO Hackathon: Chat with Documents")
 
 @st.cache_resource(ttl="1h")
 def configure_qa_chain():
-    query_embedding = OpenAIEmbeddings()
-    db = FAISS.load_local("faiss_index_2", query_embedding)
+    # query_embedding = OpenAIEmbeddings()
+    model_name = "sentence-transformers/all-mpnet-base-v2"
+    query_embedding = HuggingFaceEmbeddings(model_name=model_name)
+    db = FAISS.load_local("faiss_index", query_embedding)
     retriever = db.as_retriever(search_kwargs={"k": 4, "fetch_k": 8})
     #with open("faiss_store.pkl", "rb") as f:
     #    docsearch = pickle.load(f)
@@ -31,10 +29,15 @@ def configure_qa_chain():
     #retriever = vectordb.as_retriever(search_type="mmr", search_kwargs={"k": 2, "fetch_k": 4})
     # Setup memory for contextual conversation
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+
     # Setup LLM and QA chain
-    llm = ChatOpenAI(
-        model_name="gpt-3.5-turbo", openai_api_key=openai_api_key, temperature=0, streaming=True
-    )
+    # llm = ChatOpenAI(
+    #     model_name="gpt-3.5-turbo", openai_api_key=openai_api_key, temperature=0, streaming=True
+    # )
+    llm = ChatAnthropic(model="claude-v1", anthropic_api_key=api_key, anthropic_api_url="",
+                        temperature=0)
+
+
     qa_chain = ConversationalRetrievalChain.from_llm(
         llm, retriever=retriever, memory=memory, verbose=True
     )
@@ -52,8 +55,8 @@ class PrintRetrievalHandler(BaseCallbackHandler):
             source = os.path.basename(doc.metadata["source"])
             self.container.write(f"**Document {idx} from {source}**")
             self.container.markdown(doc.page_content)
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
-if not openai_api_key:
+api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+if not api_key:
     st.info("Please add your OpenAI API key to continue.")
     st.stop()
 
