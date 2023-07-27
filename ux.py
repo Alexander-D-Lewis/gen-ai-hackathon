@@ -158,8 +158,8 @@ def call_openai_api(n, human_prompt, existingchildren):
     if n==0:
         return "", "", []
     else:
-        # result_ai = conversation.predict(input=human_prompt)
-        result_ai = ""
+        result_ai = conversation.predict(input=human_prompt)
+
         human_output = f"You asked: {human_prompt}"
         chatbot_output = f"{result_ai}"
 
