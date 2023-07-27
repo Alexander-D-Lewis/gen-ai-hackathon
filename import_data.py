@@ -7,7 +7,7 @@ import numpy as np
 from glob import iglob
 from langchain.document_loaders import UnstructuredODTLoader
 from langchain.vectorstores import FAISS
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from tqdm import tqdm
 from dotenv import load_dotenv
@@ -64,8 +64,10 @@ if __name__ == "__main__":
     docs = load_docs()
     corpus_list = split_docs(docs)
     
-    store = FAISS.from_texts(corpus_list, OpenAIEmbeddings(openai_organization="DS Hack n",
-                                                           openai_api_key=openai_api_key))
+    model_name = "sentence-transformers/all-mpnet-base-v2"
+    hf = HuggingFaceEmbeddings(model_name=model_name)
+
+    store = FAISS.from_texts(corpus_list, embedding=hf)
     store.save_local("faiss_index")
 
 
