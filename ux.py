@@ -6,6 +6,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts.prompt import PromptTemplate
 from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.chat_models import ChatOpenAI
 
 from langchain import FAISS
 
@@ -44,22 +45,34 @@ external_js = [
 lato_font = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900"
 
 
-chat = OpenAI(temperature=0)   # level of randomness or creativity
 
-
-template = """The following is a conversation between an international development professional and an AI. The AI I will act as an assistant who provides advice to international development professionals. The international development professional will ask a question and the AI will respond. The AI should respond with an answer to the question and ask follow up questions to better understand what the international development professional is looking for and what they would find useful. The answer must include references to the documents where the information was sourced. All your answers should adhere to the civil service code.
-{history}
-Human: {input} Along with the answer you provide, can you give me potential follow up questions i could ask next to help you better understand me? If my request is vague, please ask me to clarify.
+template = """The following is a conversation between an international development professional and an AI. The AI I will act as an assistant who provides advice to international development professionals. The international development professional will ask a question and the AI will respond. The AI should respond with an answer to the question and ask follow up questions to better understand what the international development professional is looking for and what they would find useful. The answer must include references to the documents where the information was sourced. All your answers should adhere to the civil service code. Please also define any acronyms you use. Along with the answer you provide, can you give me potential follow up questions that i could ask to learn more? If my request is vague, please ask me to clarify. Please add new lines between each paragraph in the return. Can you provide the document names and authors for the sources you used at the bottom of the reply.
+Please consider the chat history:{chat_history}
+And please consider the following context" {context}
+Human: {question} 
 AI Assistant:"""
 
-PROMPT = PromptTemplate(input_variables=["history", "input"], template=template)
+PROMPT = PromptTemplate(input_variables=["chat_history", "question", "context"], template=template)
+
+chat = ChatOpenAI(temperature=0, openai_api_key="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",
+              model="gpt-4")   # level of randomness or creativity
 
 
-conversation = ConversationChain(prompt=PROMPT,
-    llm=chat, 
-    verbose=True,
-    memory=ConversationBufferMemory(),
-)
+model = "sentence-transformers/all-mpnet-base-v2"
+hf = HuggingFaceEmbeddings(model_name=model)
+db = FAISS.load_local("faiss_index_100", hf)
+retriever = db.as_retriever(search_kwargs={"k": 4, "fetch_k": 8})
+
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+
+conversation = ConversationalRetrievalChain.from_llm(llm=chat, memory=memory, verbose=True,
+                                            retriever=retriever,
+                                            combine_docs_chain_kwargs={"prompt": PROMPT})
+# conversation = ConversationChain(prompt=PROMPT,
+#     llm=chat, 
+#     verbose=True,
+#     memory=ConversationBufferMemory(),
+# )
 
 
 app = Dash(__name__,
@@ -72,7 +85,7 @@ app.layout = html.Div([
               dmc.Title(children=[image("logo.png", **{"width": "65px",
                                                             "height": "50px"}),
 
-                                  "  AI.d Chatbot  ",
+                                  "  AI.d Chat  ",
                                   image("ukaid.jpeg", enc_format="jpeg", **{"width": "60px",
                                                             "height": "60px"}),])                                  
                                   ],style={'textAlign': 'center',
@@ -95,6 +108,7 @@ app.layout = html.Div([
                                             dbc.CardHeader(children=[dcc.Markdown("""**Note:** This chatbot is a prototype and is not intended to be used for any official purposes. 
                                             The chatbot is trained on a small sample of publicly available documents and, although some effort has been made to prevent hallucinations, we cannot guarantee the accuracy of the produced content.""")]),
                                             dbc.CardBody([
+                                                dmc.Alert(id="mainresponse", color="white", style={"background-color":"white"}),
                                                 html.Br(),
                                                 html.Div([
                                                 dbc.Button(id="prompt_1_button", children=prompts_list[0], value=prompts_list[0], n_clicks=0, className="option-button"),
@@ -109,8 +123,7 @@ app.layout = html.Div([
                                                     dbc.Button(id='sendPrompt', children=">", color="success", n_clicks=0, className="option-button"),
                                                     ],
                                                 ),
-                                                html.Br(),
-                                                dmc.Alert(id="mainresponse", color="white", style={"background-color":"white"}),
+
                                                 
                                             ], style={"width":"100%"}),
                                         ],style={"width":"100%"},
@@ -158,7 +171,7 @@ def call_openai_api(n, human_prompt, existingchildren):
     if n==0:
         return "", "", []
     else:
-        result_ai = conversation.predict(input=human_prompt)
+        result_ai = conversation.run({"question":human_prompt, "chat_history":memory})
 
         human_output = f"You asked: {human_prompt}"
         chatbot_output = f"{result_ai}"
@@ -174,6 +187,7 @@ def call_openai_api(n, human_prompt, existingchildren):
 
 
         return new_children
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
