@@ -1,7 +1,6 @@
 *.csv
 *.xlsx
 *.xls
-*.pkl
 *.parquet
 *.zip
 *.ods

@@ -1,11 +1,11 @@
 # std
 import os
+import pickle
+from glob import iglob
 
 # third party
 import pandas as pd
 import numpy as np
-import pickle
-from glob import iglob
 from langchain.document_loaders import UnstructuredODTLoader
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
