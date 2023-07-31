@@ -84,11 +84,11 @@ app = Dash(__name__,
 
 app.layout = html.Div([
     html.Div([
-              dmc.Title(children=[image("logo.png", **{"width": "65px",
+              dmc.Title(children=[image("assets/logo.png", **{"width": "65px",
                                                             "height": "50px"}),
 
                                   "  AI.d Chat  ",
-                                  image("ukaid.jpeg", enc_format="jpeg", **{"width": "60px",
+                                  image("assets/ukaid.jpeg", enc_format="jpeg", **{"width": "60px",
                                                             "height": "60px"}),])                                  
                                   ],style={'textAlign': 'center',
                                                           "padding": "10px"}),
