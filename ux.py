@@ -1,7 +1,14 @@
+# std
+import os
+import base64
+from io import BytesIO
+
+# third party
+from PIL import Image
+from dash import html
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
 from dash import Dash, html, Input, Output, State, callback, dcc
-from langchain import OpenAI, ConversationChain
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts.prompt import PromptTemplate
@@ -10,12 +17,7 @@ from langchain.chat_models import ChatOpenAI
 
 from langchain import FAISS
 
-import base64
-from io import BytesIO
-
-# third party
-from PIL import Image
-from dash import html
+OPENAI_KEY = os.environ.get("OPENAI_API_KEY")
 
 
 def image(path, enc_format="png", **kwargs):
@@ -46,6 +48,7 @@ lato_font = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300
 
 
 
+# Prompt engineering
 template = """The following is a conversation between an international development professional and an AI. The AI I will act as an assistant who provides advice to international development professionals. The international development professional will ask a question and the AI will respond. The AI should respond with an answer to the question and ask follow up questions to better understand what the international development professional is looking for and what they would find useful. The answer must include references to the documents where the information was sourced. All your answers should adhere to the civil service code. Please also define any acronyms you use. Along with the answer you provide, can you give me potential follow up questions that i could ask to learn more? If my request is vague, please ask me to clarify. Please add new lines between each paragraph in the return. Can you provide the document names and authors for the sources you used at the bottom of the reply.
 Please consider the chat history:{chat_history}
 And please consider the following context" {context}
@@ -54,8 +57,10 @@ AI Assistant:"""
 
 PROMPT = PromptTemplate(input_variables=["chat_history", "question", "context"], template=template)
 
-chat = ChatOpenAI(temperature=0, openai_api_key="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",
-              model="gpt-4")   # level of randomness or creativity
+
+# Chatbot engineering
+chat = ChatOpenAI(temperature=0, openai_api_key=OPENAI_KEY,
+              model="gpt-4")
 
 
 model = "sentence-transformers/all-mpnet-base-v2"
@@ -68,13 +73,9 @@ memory = ConversationBufferMemory(memory_key="chat_history", return_messages=Tru
 conversation = ConversationalRetrievalChain.from_llm(llm=chat, memory=memory, verbose=True,
                                             retriever=retriever,
                                             combine_docs_chain_kwargs={"prompt": PROMPT})
-# conversation = ConversationChain(prompt=PROMPT,
-#     llm=chat, 
-#     verbose=True,
-#     memory=ConversationBufferMemory(),
-# )
 
 
+# Dash board code
 app = Dash(__name__,
            external_stylesheets=[dbc.themes.FLATLY, lato_font],
            external_scripts=external_js,)
